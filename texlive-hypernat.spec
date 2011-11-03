@@ -1,3 +1,9 @@
+# revision 17358
+# category Package
+# catalog-ctan /macros/latex/contrib/hypernat
+# catalog-date 2010-03-08 12:29:56 +0100
+# catalog-license gpl
+# catalog-version 1.0b
 Name:		texlive-hypernat
 Version:	1.0b
 Release:	1
@@ -41,6 +47,7 @@ bibliography.
 %{_texmfdistdir}/tex/latex/hypernat/hypernat.sty
 %doc %{_texmfdistdir}/doc/latex/hypernat/hypernat.pdf
 %doc %{_texmfdistdir}/doc/latex/hypernat/hypernat.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ bibliography.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
