@@ -6,7 +6,7 @@
 # catalog-version 1.0b
 Name:		texlive-hypernat
 Version:	1.0b
-Release:	9
+Release:	10
 Summary:	Allow hyperref and natbib to work together
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hypernat
