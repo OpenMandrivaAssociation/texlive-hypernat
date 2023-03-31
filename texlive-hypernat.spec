@@ -1,6 +1,6 @@
 Name:		texlive-hypernat
 Version:	17358
-Release:	1
+Release:	2
 Summary:	Allow hyperref and natbib to work together
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hypernat
