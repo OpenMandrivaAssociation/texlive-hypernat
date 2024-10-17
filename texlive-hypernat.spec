@@ -3,7 +3,7 @@ Version:	17358
 Release:	2
 Summary:	Allow hyperref and natbib to work together
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hypernat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hypernat
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hypernat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hypernat.doc.r%{version}.tar.xz
